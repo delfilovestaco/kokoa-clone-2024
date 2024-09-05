@@ -9,3 +9,31 @@
     color: white;
     font-weight: 600;
 }
+.notification-dot{
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    top: -10px;   /* 상단에 위치 */
+    left: 30px; /* 우측에 위치 */
+}
+.notification-dot-2{ /* icon의 크기를 고려해서, 설정 아이콘은 위치 다르게 설정함*/
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    top: -5px;   /* 상단에 위치 */
+    left: 20px; /* 우측에 위치 */
+}
+.notification-color{
+   color: tomato;  
+}
+/* 
+background-color: tomato;
+width: 6px;
+height: 6px;
+border-radius: 3px;
+position: absolute;
+left: 30px; */
