@@ -9,6 +9,7 @@
 @import"components/user-component.css";
 @import"components/badge.css";
 @import"components/icon-row.css";
+@import"components/alt-screen-header.css";
 
 /* screens */
 @import"screens/login.css";
@@ -16,6 +17,8 @@
 @import"screens/chats.css";
 @import"screens/find.css";
 @import"screens/more.css";
+@import"screens/settings.css";
+@import"screens/chat.css";
 
 body{
     color: #2e363e;
@@ -24,7 +27,8 @@ body{
 }
 .main-screen{
     padding: 0px var(--horizontal-space);
-    position: sticky;
-    top: 110px;
+    margin-top: 100px;
+    /* position: sticky;
+    top: 110px; */
 }
 

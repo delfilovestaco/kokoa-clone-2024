@@ -90,3 +90,7 @@
 .open-post__heart-count span{
     margin-left: 4px;
 }
+
+.find__status-bar, .find__header{
+    background-color: white;
+}

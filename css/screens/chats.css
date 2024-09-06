@@ -1,5 +1,8 @@
-.chats-screen{
+/* .chats-screen{
     position: sticky;
     top: 110px;
+} */
+.chats__status-bar, .chats__header, .chats-screen{
+    background-color: white;
 }
 
