@@ -94,3 +94,22 @@
 .find__status-bar, .find__header{
     background-color: white;
 }
+
+@keyframes heartbeat{
+    0%{
+        color: white;
+        transform: none;
+    }
+    50%{
+        color: deeppink;
+        transform: scale(2);
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+}
+.open-post__heart-count:hover i{
+    will-change: transform;
+    animation: heartbeat 1s linear infinite;
+}
